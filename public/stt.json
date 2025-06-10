@@ -1,0 +1,61 @@
+{
+  "providers": {
+    "deepgram": {
+      "name": "Deepgram",
+      "models": {
+        "nova-2": {
+          "name": "Nova-2",
+          "languages": {
+            "en-US": "English-US",
+            "en-GB": "English-GB",
+            "hi-IN": "Hindi-IN",
+            "ta-IN": "Tamil-IN",
+            "te-IN": "Telugu-IN"
+          }
+        },
+        "enhanced": {
+          "name": "Enhanced",
+          "languages": {
+            "en-US": "English-US",
+            "hi-IN": "Hindi-IN"
+          }
+        }
+      }
+    },
+    "openai": {
+      "name": "OpenAI",
+      "models": {
+        "whisper-1": {
+          "name": "Whisper-1",
+          "languages": {
+            "en": "English",
+            "hi": "Hindi",
+            "ta": "Tamil",
+            "te": "Telugu",
+            "bn": "Bengali"
+          }
+        }
+      }
+    },
+    "google": {
+      "name": "Google Cloud",
+      "models": {
+        "latest_long": {
+          "name": "Latest Long",
+          "languages": {
+            "en-US": "English-US",
+            "hi-IN": "Hindi-IN",
+            "ta-IN": "Tamil-IN"
+          }
+        },
+        "latest_short": {
+          "name": "Latest Short",
+          "languages": {
+            "en-US": "English-US",
+            "hi-IN": "Hindi-IN"
+          }
+        }
+      }
+    }
+  }
+}
